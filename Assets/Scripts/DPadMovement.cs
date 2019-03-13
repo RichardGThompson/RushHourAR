@@ -9,7 +9,8 @@ public class DPadMovement : MonoBehaviour
     private Button upButton, downButton, rightButton, leftButton, undoButton;
 
     private float carSize;
-    private bool undoneAlready, firstTurn = false;
+    private bool undoneAlready = false;
+    private bool firstTurn = true;
     private int currentObjectMoveCount, previousAction, previousMoveCount, moveCount = 0;
 
 
@@ -17,7 +18,6 @@ public class DPadMovement : MonoBehaviour
     {
         if(action == 4)
         {
-            Debug.Log("Undo Pressed!");
             if(undoneAlready == false && currentObjectMoveCount != 0)
             {
                 switch (previousAction)
@@ -143,8 +143,6 @@ public class DPadMovement : MonoBehaviour
                             firstTurn = false;
                             break;
                     }
-                    Debug.Log(selectedObject.name);
-                    Debug.Log(previousObject.name);
                 }
             }
         }
