@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Moveable2
   - Moveable3
+  - 3DCamera
   layers:
   - Default
   - TransparentFX
