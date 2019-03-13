@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DPadMovement : MonoBehaviour
 {
+    Behaviour halo;
     private GameObject selectedObject, previousObject;
     private Button upButton, downButton, rightButton, leftButton, undoButton;
 
@@ -12,7 +13,7 @@ public class DPadMovement : MonoBehaviour
     private bool undoneAlready = false;
     private bool firstTurn = true;
     private int currentObjectMoveCount, previousAction, previousMoveCount, moveCount = 0;
-
+    Material m_Mat;
 
     void ButtonPressed(int action)
     {
@@ -57,6 +58,7 @@ public class DPadMovement : MonoBehaviour
             if (selectedObject.tag == "Moveable2")
             {
                 carSize = 1.01f;
+                
             }
             else if(selectedObject.tag == "Moveable3")
             {
@@ -136,6 +138,9 @@ public class DPadMovement : MonoBehaviour
                         case false:
                             previousObject = selectedObject;
                             selectedObject = hit.transform.gameObject;
+                            previousObject.GetComponent<Outline>().enabled = false;
+                            selectedObject.GetComponent<Outline>().enabled = true;
+                            
                             break;
                         case true:
                             selectedObject = hit.transform.gameObject;
