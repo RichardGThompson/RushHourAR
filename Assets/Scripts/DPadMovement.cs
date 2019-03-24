@@ -117,7 +117,8 @@ public class DPadMovement : MonoBehaviour
             }
         }   
     }
-    
+
+
     void selectCar()
     {
         if (Input.touchCount > 0)
@@ -126,7 +127,7 @@ public class DPadMovement : MonoBehaviour
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, 500))
+                if (Physics.Raycast(ray, out hit))
                 {
                     if (selectedObject != hit.transform.gameObject)
                     {
