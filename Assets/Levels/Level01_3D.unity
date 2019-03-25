@@ -585,7 +585,7 @@ PrefabInstance:
     - target: {fileID: 8916048756441766909, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
         type: 3}
       propertyPath: m_Name
-      value: Car
+      value: Car01
       objectReference: {fileID: 0}
     - target: {fileID: 8916048756441766905, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
         type: 3}
@@ -667,6 +667,12 @@ PrefabInstance:
     - {fileID: 8916048756441766904, guid: 44bfeaff9db6c714aaf9b825fb7322c3, type: 3}
     - {fileID: 3179770625148766961, guid: 44bfeaff9db6c714aaf9b825fb7322c3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44bfeaff9db6c714aaf9b825fb7322c3, type: 3}
+--- !u!1 &433341092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8916048756441766909, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 433341091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &616613248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1224,7 @@ GameObject:
   - component: {fileID: 1297805614}
   - component: {fileID: 1297805613}
   - component: {fileID: 1297805612}
+  - component: {fileID: 1297805615}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1263,6 +1270,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297805615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297805611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d585638101235f24a90523b2d1af1d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carList:
+  - {fileID: 433341092}
+  - {fileID: 2022137943}
+  - {fileID: 2103599702}
 --- !u!1 &1424817103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1757,7 @@ PrefabInstance:
     - target: {fileID: 8916048756441766909, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
         type: 3}
       propertyPath: m_Name
-      value: Car (1)
+      value: Car02
       objectReference: {fileID: 0}
     - target: {fileID: 8916048756441766905, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
         type: 3}
@@ -1814,6 +1837,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3179770625148766961, guid: 44bfeaff9db6c714aaf9b825fb7322c3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44bfeaff9db6c714aaf9b825fb7322c3, type: 3}
+--- !u!1 &2022137943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8916048756441766909, guid: 44bfeaff9db6c714aaf9b825fb7322c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2022137942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032663155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +1932,7 @@ PrefabInstance:
     - target: {fileID: 7203754117261496894, guid: f17d19defc1c9d54abc5045d5b6de1df,
         type: 3}
       propertyPath: m_Name
-      value: Truck 1
+      value: Truck01
       objectReference: {fileID: 0}
     - target: {fileID: 7203754117261496893, guid: f17d19defc1c9d54abc5045d5b6de1df,
         type: 3}
@@ -1977,3 +2006,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17d19defc1c9d54abc5045d5b6de1df, type: 3}
+--- !u!1 &2103599702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7203754117261496894, guid: f17d19defc1c9d54abc5045d5b6de1df,
+    type: 3}
+  m_PrefabInstance: {fileID: 2103599701}
+  m_PrefabAsset: {fileID: 0}

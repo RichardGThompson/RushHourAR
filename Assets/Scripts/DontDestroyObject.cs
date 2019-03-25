@@ -8,10 +8,9 @@ public class DontDestroyObject : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        GameObject[] moveableTwos = GameObject.FindGameObjectsWithTag("Moveable2");
-        GameObject[] moveableThrees = GameObject.FindGameObjectsWithTag("Moveable3");
-        GameObject[] finalArray = moveableTwos.Concat(moveableThrees).ToArray();
-        if(finalArray.Length > 3)
+        GameObject[] dontDestroyArray = GameObject.FindGameObjectsWithTag("PositionTracker");
+        
+        if(dontDestroyArray.Length > 1)
         {
             Destroy(this.gameObject);
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarInfo : MonoBehaviour
+public class CarsInScene : MonoBehaviour
 {
-    public int carID;
+    public GameObject[] carList;
 }
