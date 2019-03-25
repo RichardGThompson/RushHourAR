@@ -11,6 +11,10 @@ public class DontDestroyObject : MonoBehaviour
         GameObject[] moveableTwos = GameObject.FindGameObjectsWithTag("Moveable2");
         GameObject[] moveableThrees = GameObject.FindGameObjectsWithTag("Moveable3");
         GameObject[] finalArray = moveableTwos.Concat(moveableThrees).ToArray();
+        if(finalArray.Length > 3)
+        {
+            Destroy(this.gameObject);
+        }
         DontDestroyOnLoad(this.gameObject);
     }
 
