@@ -15,6 +15,7 @@ public class CarDetection : MonoBehaviour
         {
             if (hit.transform.gameObject.tag == "Goal")
             {
+                
                 return false;
             }
             else
