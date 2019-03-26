@@ -7,6 +7,7 @@ TagManager:
   - Moveable2
   - Moveable3
   - 3DCamera
+  - PositionTracker
   layers:
   - Default
   - TransparentFX

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class CarInfo : MonoBehaviour
 {
-    public bool direction;
+    public int carID;
 }
