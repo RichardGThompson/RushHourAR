@@ -9,6 +9,10 @@ TagManager:
   - 3DCamera
   - PositionTracker
   - Goal
+  - MusicSource
+  - SFXSource
+  - OptionsMenu
+  - MusicController
   layers:
   - Default
   - TransparentFX
