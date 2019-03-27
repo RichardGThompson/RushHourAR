@@ -15,14 +15,16 @@ public class NewDPadMovement : MonoBehaviour
 
 
     //Public Variables:
-
+    public Text debugText;
         
     void ButtonPressed(int buttonID)
     {
         if(buttonID == 4)
         {
+            debugText.text = "Undo Pressed!";
             if(undoneAlready == false && currentObjectMoveCount != 0)
             {
+                GetComponent<MoveTracker>().updateMoveCount(-1);
                 switch (previousAction)
                 {
                     case 0:
@@ -72,35 +74,58 @@ public class NewDPadMovement : MonoBehaviour
             //Up.
             case 0:
                 //Checks to see if there is an object impeding it's movement and if there is not then the car will move.
-                if (!(selectedObject.GetComponent<CarDetection>().raycastResult(1.0f, carSize)))
+                if (selectedObject.transform.localRotation.eulerAngles.y == 0)
                 {
-                    selectedObject.transform.Translate(1, 0, 0);
-                    previousAction = 0;
+                    if (!(selectedObject.GetComponent<CarDetection>().raycastResult(1.0f, carSize)))
+                    {
+                        selectedObject.transform.Translate(1, 0, 0);
+                        currentObjectMoveCount++;
+                        GetComponent<MoveTracker>().updateMoveCount(1);
+                        undoneAlready = false;
+                        previousAction = 0;
+                    }
                 }
-                
                 break;
             //Down.
             case 1:
-                if (!(selectedObject.GetComponent<CarDetection>().raycastResult(-1.0f, carSize)))
+                if (selectedObject.transform.localRotation.eulerAngles.y == 0)
                 {
-                    selectedObject.transform.Translate(-1, 0, 0);
-                    previousAction = 1;
+                    if (!(selectedObject.GetComponent<CarDetection>().raycastResult(-1.0f, carSize)))
+                    {
+                        selectedObject.transform.Translate(-1, 0, 0);
+                        currentObjectMoveCount++;
+                        GetComponent<MoveTracker>().updateMoveCount(1);
+                        undoneAlready = false;
+                        previousAction = 1;
+                    }
                 }
                 break;
             //Right.
             case 2:
-                if (selectedObject.transform.rotation.eulerAngles.y == 90 || selectedObject.transform.rotation.eulerAngles.y == 270)
+                if (selectedObject.transform.localRotation.eulerAngles.y == 90)
                 {
-                    selectedObject.transform.Translate(1, 0, 0);
-                    previousAction = 2;
+                    if (!(selectedObject.GetComponent<CarDetection>().raycastResult(1.0f, carSize)))
+                    {
+                        selectedObject.transform.Translate(1, 0, 0);
+                        currentObjectMoveCount++;
+                        GetComponent<MoveTracker>().updateMoveCount(1);
+                        undoneAlready = false;
+                        previousAction = 0;
+                    }
                 }
                 break;
             //Left.
             case 3:
-                if (selectedObject.transform.rotation.eulerAngles.y == 90 || selectedObject.transform.rotation.eulerAngles.y == 270)
+                if (selectedObject.transform.localRotation.eulerAngles.y == 90)
                 {
-                    selectedObject.transform.Translate(-1, 0, 0);
-                    previousAction = 3;
+                    if (!(selectedObject.GetComponent<CarDetection>().raycastResult(-1.0f, carSize)))
+                    {
+                        selectedObject.transform.Translate(-1, 0, 0);
+                        currentObjectMoveCount++;
+                        GetComponent<MoveTracker>().updateMoveCount(1);
+                        undoneAlready = false;
+                        previousAction = 1;
+                    }
                 }
                 break;
                
@@ -127,11 +152,13 @@ public class NewDPadMovement : MonoBehaviour
                         case false:
                             previousObject = selectedObject;
                             selectedObject = touchedObject;
-                            
+                            previousObject.GetComponent<Outline>().enabled = false;
+                            selectedObject.GetComponent<Outline>().enabled = true;
                             break;
                         case true:
                             selectedObject = touchedObject;
                             previousObject = selectedObject;
+                            selectedObject.GetComponent<Outline>().enabled = true;
                             firstTurn = false;
                             break;
                     }
@@ -177,5 +204,15 @@ public class NewDPadMovement : MonoBehaviour
     void Update()
     {
         SelectCar();
+        /*
+        if (selectedObject != null)
+        {
+            debugText.text = selectedObject.name;
+        }
+        else
+        {
+            debugText.text = "NULL";
+        }
+        */
     }
 }

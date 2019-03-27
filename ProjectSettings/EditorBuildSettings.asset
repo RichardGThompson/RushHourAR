@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level01_AR.unity
     guid: db44e3bbc95964746a7fe36cf09e911a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Levels/Level01_3D.unity
     guid: 82bb4b6586e3b814099c88169e38032e
   - enabled: 0
     path: Assets/Levels/RaycastTesting.unity
     guid: b9d90cf4765f75a49ba9e07c2bddbca2
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect.unity
-    guid: a06f3701c9646d543992a6252fad7431
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
