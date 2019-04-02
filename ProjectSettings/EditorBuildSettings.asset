@@ -8,8 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Levels/Level01_AR.unity
+  - enabled: 0
+    path: Assets/Levels/TestLevel.unity
     guid: db44e3bbc95964746a7fe36cf09e911a
   - enabled: 0
     path: Assets/Levels/Level01_3D.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Levels/Level01.unity
+    guid: 3bac2e51344617940b1f2a1bbf8e1565
   m_configObjects: {}

@@ -19,7 +19,8 @@ public class NewDPadMovement : MonoBehaviour
         
     void ButtonPressed(int buttonID)
     {
-        if(buttonID == 4)
+        Debug.Log("Button Pressed!");
+        if (buttonID == 4)
         {
             debugText.text = "Undo Pressed!";
             if(undoneAlready == false && currentObjectMoveCount != 0)
@@ -67,10 +68,10 @@ public class NewDPadMovement : MonoBehaviour
             //Same thing for Moveable3 but just bigger.
             carSize = 1.6f;
         }
-
+        
         switch (buttonID)
         {
-
+            
             //Up.
             case 0:
                 //Checks to see if there is an object impeding it's movement and if there is not then the car will move.
@@ -187,11 +188,13 @@ public class NewDPadMovement : MonoBehaviour
         firstTurn = false;
 
         //Decalring all of the buttons.
+        
         upButton = GameObject.Find("UpButton").GetComponent<Button>();
         downButton = GameObject.Find("DownButton").GetComponent<Button>();
         rightButton = GameObject.Find("RightButton").GetComponent<Button>();
         leftButton = GameObject.Find("LeftButton").GetComponent<Button>();
         undoButton = GameObject.Find("UndoButton").GetComponent<Button>();
+        
 
         upButton.onClick.AddListener(() => ButtonPressed(0));
         downButton.onClick.AddListener(() => ButtonPressed(1));

@@ -7,17 +7,25 @@ public class LevelTime : MonoBehaviour
 {
     private float startingTime, currentTimeElapsed;
     private int currentTimeInt;
+    private float nextActionTime = 0.0f;
+    private float period = 1.0f;
     public Text timeText;
 
     private void Start()
     {
-        startingTime = Time.time;
+        currentTimeInt = 0;
     }
 
     private void Update()
     {
-        currentTimeElapsed = Time.time - startingTime;
-        currentTimeInt = Mathf.RoundToInt(currentTimeElapsed);
+        if(Time.time > nextActionTime)
+        {
+            nextActionTime += period;
+            if (GetComponent<CheckIfTargetActive>().trackerFound())
+            {
+                currentTimeInt++;
+            }
+        }
         timeText.text = currentTimeInt.ToString();
     }
 }
