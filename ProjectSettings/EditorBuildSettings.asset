@@ -20,6 +20,14 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+Menu
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: a3eda42aede48314594dc754ade614a0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 533af28d0248768459505180a6f94df4
+=======
   - enabled: 0
     path: Assets/Levels/Level01.unity
     guid: 3bac2e51344617940b1f2a1bbf8e1565
@@ -47,4 +55,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level10.unity
     guid: c1eca5e875188964995b4b6c6d1b258f
+master
   m_configObjects: {}

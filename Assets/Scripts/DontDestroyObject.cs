@@ -8,7 +8,7 @@ public class DontDestroyObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject[] dontDestroyArray = GameObject.FindGameObjectsWithTag("PositionTracker");
+        GameObject[] dontDestroyArray = GameObject.FindGameObjectsWithTag(gameObject.tag);
         
         if(dontDestroyArray.Length > 1)
         {
