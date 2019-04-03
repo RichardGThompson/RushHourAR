@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: b3520c9b1bb0e264f82b31127e3a5ede
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gameboard_Highway_Loose_Pieces:pCube6
+    100004: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp3
+    100006: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp4
+    100008: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform1
+    100010: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform10
+    100012: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform11
+    100014: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform12
+    100016: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform13
+    100018: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform14
+    100020: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform15
+    100022: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform16
+    100024: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform17
+    100026: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform18
+    100028: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform19
+    100030: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform2
+    100032: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform20
+    100034: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform21
+    100036: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform22
+    100038: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform23
+    100040: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform24
+    100042: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform25
+    100044: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform26
+    100046: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform27
+    100048: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform28
+    100050: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform29
+    100052: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform3
+    100054: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform30
+    100056: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform31
+    100058: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform32
+    100060: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform33
+    100062: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform34
+    100064: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform35
+    100066: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform36
+    100068: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform37
+    100070: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform38
+    100072: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform4
+    100074: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform5
+    100076: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform6
+    100078: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform7
+    100080: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform8
+    100082: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform9
+    100084: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group100
+    100086: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group101
+    100088: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group102
+    100090: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group103
+    100092: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group104
+    100094: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group105
+    100096: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group106
+    100098: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group107
+    100100: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group108
+    100102: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group109
+    100104: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group111
+    100106: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group112
+    100108: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group113
+    100110: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group114
+    100112: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group115
+    100114: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group116
+    100116: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group117
+    100118: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group118
+    100120: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group120
+    100122: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group121
+    100124: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group122
+    100126: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group123
+    100128: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group85
+    100130: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group87
+    100132: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group88
+    100134: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group89
+    100136: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group90
+    100138: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group91
+    100140: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group92
+    100142: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group93
+    100144: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group94
+    100146: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group95
+    100148: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group96
+    100150: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group97
+    100152: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group98
+    100154: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group99
+    100156: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group102
+    100158: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group102 1
+    100160: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group107
+    100162: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group107 1
+    100164: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118
+    100166: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118 1
+    100168: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118 2
+    100170: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85
+    100172: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 1
+    100174: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 2
+    100176: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 3
+    100178: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86
+    100180: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 1
+    100182: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 2
+    100184: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 3
+    100186: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91
+    100188: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 1
+    100190: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 2
+    100192: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 3
+    100194: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 4
+    100196: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93
+    100198: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 1
+    100200: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 2
+    100202: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 3
+    100204: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94
+    100206: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94 1
+    100208: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94 2
+    100210: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95
+    100212: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 1
+    100214: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 2
+    100216: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 3
+    100218: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 4
+    100220: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 5
+    100222: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group96
+    100224: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group96 1
+    100226: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+    100228: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      1
+    100230: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      10
+    100232: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      11
+    100234: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      2
+    100236: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      3
+    100238: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      4
+    100240: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      5
+    100242: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      6
+    100244: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      7
+    100246: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      8
+    100248: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      9
+    100250: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+    100252: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      1
+    100254: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      2
+    100256: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      3
+    100258: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      4
+    100260: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      5
+    100262: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      6
+    100264: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      7
+    100266: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group94
+    100268: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group94
+      1
+    100270: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group95
+    100272: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group95
+      1
+    100274: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+    100276: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+      1
+    100278: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+      2
+    100280: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+    100282: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      1
+    100284: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      2
+    100286: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      3
+    100288: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      4
+    100290: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      5
+    100292: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      6
+    100294: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      7
+    100296: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      8
+    100298: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      9
+    100300: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group93
+    100302: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group93
+      1
+    100304: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+    100306: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+      1
+    100308: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+      2
+    100310: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group86
+    100312: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group86
+      1
+    100314: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+    100316: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+      1
+    100318: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+      2
+    100320: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+    100322: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+      1
+    100324: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+      2
+    100326: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+    100328: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+      1
+    100330: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+      2
+    100332: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pCube6
+    100334: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pCube6
+      1
+    100336: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+    100338: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      1
+    100340: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      2
+    100342: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      3
+    100344: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      4
+    100346: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      5
+    100348: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      6
+    100350: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      7
+    100352: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      8
+    100354: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      9
+    100356: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+    100358: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      1
+    100360: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      10
+    100362: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      11
+    100364: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      2
+    100366: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      3
+    100368: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      4
+    100370: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      5
+    100372: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      6
+    100374: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      7
+    100376: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      8
+    100378: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      9
+    100380: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+    100382: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      1
+    100384: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      2
+    100386: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      3
+    100388: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      4
+    100390: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      5
+    100392: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      6
+    100394: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      7
+    100396: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pCube6
+    400000: //RootNode
+    400002: Gameboard_Highway_Loose_Pieces:pCube6
+    400004: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp3
+    400006: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp4
+    400008: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform1
+    400010: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform10
+    400012: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform11
+    400014: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform12
+    400016: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform13
+    400018: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform14
+    400020: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform15
+    400022: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform16
+    400024: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform17
+    400026: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform18
+    400028: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform19
+    400030: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform2
+    400032: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform20
+    400034: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform21
+    400036: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform22
+    400038: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform23
+    400040: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform24
+    400042: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform25
+    400044: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform26
+    400046: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform27
+    400048: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform28
+    400050: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform29
+    400052: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform3
+    400054: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform30
+    400056: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform31
+    400058: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform32
+    400060: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform33
+    400062: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform34
+    400064: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform35
+    400066: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform36
+    400068: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform37
+    400070: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform38
+    400072: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform4
+    400074: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform5
+    400076: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform6
+    400078: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform7
+    400080: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform8
+    400082: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:transform9
+    400084: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group100
+    400086: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group101
+    400088: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group102
+    400090: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group103
+    400092: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group104
+    400094: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group105
+    400096: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group106
+    400098: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group107
+    400100: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group108
+    400102: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group109
+    400104: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group111
+    400106: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group112
+    400108: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group113
+    400110: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group114
+    400112: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group115
+    400114: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group116
+    400116: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group117
+    400118: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group118
+    400120: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group120
+    400122: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group121
+    400124: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group122
+    400126: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group123
+    400128: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group85
+    400130: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group87
+    400132: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group88
+    400134: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group89
+    400136: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group90
+    400138: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group91
+    400140: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group92
+    400142: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group93
+    400144: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group94
+    400146: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group95
+    400148: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group96
+    400150: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group97
+    400152: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group98
+    400154: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:group99
+    400156: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group102
+    400158: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group102 1
+    400160: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group107
+    400162: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group107 1
+    400164: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118
+    400166: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118 1
+    400168: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group118 2
+    400170: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85
+    400172: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 1
+    400174: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 2
+    400176: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group85 3
+    400178: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86
+    400180: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 1
+    400182: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 2
+    400184: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group86 3
+    400186: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91
+    400188: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 1
+    400190: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 2
+    400192: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 3
+    400194: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group91 4
+    400196: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93
+    400198: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 1
+    400200: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 2
+    400202: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group93 3
+    400204: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94
+    400206: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94 1
+    400208: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group94 2
+    400210: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95
+    400212: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 1
+    400214: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 2
+    400216: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 3
+    400218: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 4
+    400220: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group95 5
+    400222: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group96
+    400224: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__group96 1
+    400226: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+    400228: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      1
+    400230: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      10
+    400232: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      11
+    400234: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      2
+    400236: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      3
+    400238: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      4
+    400240: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      5
+    400242: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      6
+    400244: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      7
+    400246: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      8
+    400248: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group86
+      9
+    400250: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+    400252: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      1
+    400254: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      2
+    400256: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      3
+    400258: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      4
+    400260: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      5
+    400262: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      6
+    400264: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group93
+      7
+    400266: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group94
+    400268: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group94
+      1
+    400270: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group95
+    400272: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group95
+      1
+    400274: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+    400276: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+      1
+    400278: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__group96
+      2
+    400280: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+    400282: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      1
+    400284: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      2
+    400286: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      3
+    400288: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      4
+    400290: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      5
+    400292: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      6
+    400294: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      7
+    400296: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      8
+    400298: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group86
+      9
+    400300: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group93
+    400302: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group93
+      1
+    400304: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+    400306: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+      1
+    400308: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__group95
+      2
+    400310: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group86
+    400312: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group86
+      1
+    400314: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+    400316: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+      1
+    400318: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__group93
+      2
+    400320: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+    400322: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+      1
+    400324: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__group86
+      2
+    400326: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+    400328: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+      1
+    400330: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pasted__pCube6
+      2
+    400332: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pCube6
+    400334: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pasted__pCube6
+      1
+    400336: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+    400338: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      1
+    400340: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      2
+    400342: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      3
+    400344: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      4
+    400346: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      5
+    400348: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      6
+    400350: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      7
+    400352: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      8
+    400354: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pasted__pCube6
+      9
+    400356: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+    400358: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      1
+    400360: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      10
+    400362: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      11
+    400364: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      2
+    400366: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      3
+    400368: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      4
+    400370: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      5
+    400372: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      6
+    400374: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      7
+    400376: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      8
+    400378: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pasted__pCube6
+      9
+    400380: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+    400382: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      1
+    400384: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      2
+    400386: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      3
+    400388: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      4
+    400390: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      5
+    400392: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      6
+    400394: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pasted__pCube6
+      7
+    400396: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:pasted__pCube6
+    2100000: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_lambert5
+    2100002: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert29
+    2100004: Gameboard_Highway_Loose_Pieces_lambert3
+    2100006: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_lambert6
+    2100008: lambert5
+    2100010: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert30
+    2100012: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert32
+    2100014: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert31
+    2100016: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert20
+    2100018: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert35
+    2100020: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert19
+    2100022: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert21
+    2100024: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert33
+    2100026: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert34
+    2100028: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert23
+    2100030: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert36
+    2100032: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert37
+    2100034: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert20
+    2100036: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert22
+    2100038: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert38
+    2100040: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert24
+    2100042: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert39
+    2100044: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert40
+    2100046: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert21
+    2100048: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert41
+    2100050: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert25
+    2100052: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert23
+    2100054: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert22
+    2100056: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert43
+    2100058: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert42
+    2100060: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert44
+    2100062: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert24
+    2100064: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert45
+    2100066: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert46
+    2100068: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_lambert7
+    2100070: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert26
+    2100072: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__lambert47
+    2100074: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert25
+    2100076: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__pasted__pasted__lambert27
+    2100078: Gameboard_Highway_Loose_Pieces_Unattached_Pieces_pasted__lambert26
+    2300000: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp4
+    3300000: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp4
+    4300000: Gameboard_Highway_Loose_Pieces:Unattached_Pieces1:GameBoard:persp4
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
