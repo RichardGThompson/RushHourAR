@@ -6,7 +6,7 @@ using System.Linq;
 public class DontDestroyObject : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         GameObject[] dontDestroyArray = GameObject.FindGameObjectsWithTag(gameObject.tag);
         
