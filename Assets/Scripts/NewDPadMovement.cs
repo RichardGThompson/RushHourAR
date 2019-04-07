@@ -19,11 +19,10 @@ public class NewDPadMovement : MonoBehaviour
         
     void ButtonPressed(int buttonID)
     {
-        Debug.Log("Button Pressed!");
         if (buttonID == 4)
         {
-            debugText.text = "Undo Pressed!";
-            if(undoneAlready == false && currentObjectMoveCount != 0)
+            //debugText.text = "DubugPressed!";
+            if (undoneAlready == false && currentObjectMoveCount != 0)
             {
                 GetComponent<MoveTracker>().updateMoveCount(-1);
                 switch (previousAction)
