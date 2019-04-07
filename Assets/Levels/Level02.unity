@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 301fa21d79c65c1488184d9264f799a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImageTarget: {fileID: 0}
+  ImageTarget: {fileID: 1901415123}
 --- !u!114 &600824221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 301fa21d79c65c1488184d9264f799a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImageTarget: {fileID: 0}
+  ImageTarget: {fileID: 1901415123}
 --- !u!114 &600824227
 MonoBehaviour:
   m_ObjectHideFlags: 0
