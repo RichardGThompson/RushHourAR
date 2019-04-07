@@ -12,48 +12,93 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 533af28d0248768459505180a6f94df4
   - enabled: 1
-    path: Assets/Levels/Level01.unity
+    path: Assets/Levels/Classic/Level01.unity
     guid: 3bac2e51344617940b1f2a1bbf8e1565
   - enabled: 1
-    path: Assets/Levels/Level02.unity
+    path: Assets/Levels/Classic/Level02.unity
     guid: 00ddad86b09829d40b99d6af0de2fbb6
   - enabled: 1
-    path: Assets/Levels/Level03.unity
+    path: Assets/Levels/Classic/Level03.unity
     guid: 05daf010ac40a3a478a0cdc1ffa472e1
   - enabled: 1
-    path: Assets/Levels/Level04.unity
+    path: Assets/Levels/Classic/Level04.unity
     guid: f32c4883ce6c3b94aae7dfb83f7be194
   - enabled: 1
-    path: Assets/Levels/Level05.unity
+    path: Assets/Levels/Classic/Level05.unity
     guid: f6cef21565b58f848896d2e8cd06af3a
   - enabled: 1
-    path: Assets/Levels/Level06.unity
+    path: Assets/Levels/Classic/Level06.unity
     guid: 7cd2decdee90fdf4a8b038a485008093
   - enabled: 1
-    path: Assets/Levels/Level07.unity
+    path: Assets/Levels/Classic/Level07.unity
     guid: ade66dbf36f690c478b247ffef604753
   - enabled: 1
-    path: Assets/Levels/Level08.unity
+    path: Assets/Levels/Classic/Level08.unity
     guid: bf9c9ee15d92b9c4387bb02092221aa8
   - enabled: 1
-    path: Assets/Levels/Level09.unity
+    path: Assets/Levels/Classic/Level09.unity
     guid: 5bdb8a511b36f8e42be6600d3b54daa2
   - enabled: 1
-    path: Assets/Levels/Level10.unity
+    path: Assets/Levels/Classic/Level10.unity
     guid: c1eca5e875188964995b4b6c6d1b258f
   - enabled: 1
-    path: Assets/Levels/Level11.unity
+    path: Assets/Levels/Classic/Level11.unity
     guid: 4fbfe43dfb0e8c640b5d9b3a66bec01a
   - enabled: 1
-    path: Assets/Levels/Level12.unity
+    path: Assets/Levels/Classic/Level12.unity
     guid: 05db6131faaac7b43b444f011f838baa
   - enabled: 1
-    path: Assets/Levels/Level13.unity
+    path: Assets/Levels/Classic/Level13.unity
     guid: e2c0a9dbc3d387f4d9d2810bf34b35c7
   - enabled: 1
-    path: Assets/Levels/Level14.unity
+    path: Assets/Levels/Classic/Level14.unity
     guid: 437723eab6540c24a925f4a78944e906
   - enabled: 1
-    path: Assets/Levels/Level15.unity
+    path: Assets/Levels/Classic/Level15.unity
     guid: 16b86c0c622125048b96684c118968d9
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level16.unity
+    guid: 693c7cfec4a011f4999c192c2984051a
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level17.unity
+    guid: a30a2a2a03c14014e88bf3fad56e2d53
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level18.unity
+    guid: e1949f0d15ef2644ebc4422996330083
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level19.unity
+    guid: 0a26d948cd853f24fb997895113f6812
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level20.unity
+    guid: 64ec69b9d09378348baf9942341dd65a
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level21.unity
+    guid: 146e5ce003904b14cb175bfffb343b6b
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level22.unity
+    guid: 664df1cb93623c94f9ff5995f0cd9002
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level23.unity
+    guid: 270e01a778ce95449b447fea9b7de80b
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level24.unity
+    guid: 4c4f41992a2a9174892e206b9789efa2
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level25.unity
+    guid: b7c6e448a82ec4d4f87493392540077a
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level26.unity
+    guid: 02d4e6d4e0c06134185bd7de6b5c2799
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level27.unity
+    guid: b8f9d3c5793a989448336a6af2cecdb4
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level28.unity
+    guid: bae185e7ceef1874a9c39b5e88ac2c9c
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level29.unity
+    guid: 3da67b514d48959449e4f6d5d00f5620
+  - enabled: 1
+    path: Assets/Levels/RushhourMode/Level30.unity
+    guid: 0de3f0ba5c8927b4ba668eab8b5bf803
   m_configObjects: {}
