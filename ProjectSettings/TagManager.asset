@@ -13,6 +13,7 @@ TagManager:
   - SFXSource
   - OptionsMenu
   - MusicController
+  - ResultsScreen
   layers:
   - Default
   - TransparentFX

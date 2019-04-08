@@ -5,10 +5,13 @@ using UnityEngine;
 public class GoalReached : MonoBehaviour
 {
     public GameObject Caranimator;
+    public GameObject ResultsScreen;
     // Start is called before the first frame update
     void Start()
     {
-        
+        ResultsScreen = GameObject.FindGameObjectWithTag("ResultsScreen");
+        ResultsScreen.SetActive(false);
+        //ResultsScreen = GameObject.Find("ResultsScreen");
     }
 
     // Update is called once per frame
@@ -27,7 +30,10 @@ public class GoalReached : MonoBehaviour
                     Debug.Log("hit goal");
                     Caranimator.gameObject.SetActive(true);
                     Caranimator.GetComponent<Animator>().SetBool("Victory", true);
+                    
+                    ResultsScreen.SetActive(true);
                     gameObject.SetActive(false);
+
 
                 }
             }
