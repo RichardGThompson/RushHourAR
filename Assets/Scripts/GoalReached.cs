@@ -28,10 +28,11 @@ public class GoalReached : MonoBehaviour
                 if (hit.collider.tag == "Goal")
                 {
                     Debug.Log("hit goal");
+                    ResultsScreen.SetActive(true);
                     Caranimator.gameObject.SetActive(true);
                     Caranimator.GetComponent<Animator>().SetBool("Victory", true);
                     
-                    ResultsScreen.SetActive(true);
+                    
                     gameObject.SetActive(false);
 
 
