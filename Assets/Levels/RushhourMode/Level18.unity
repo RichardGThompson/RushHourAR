@@ -1119,7 +1119,6 @@ GameObject:
   - component: {fileID: 600824223}
   - component: {fileID: 600824222}
   - component: {fileID: 600824221}
-  - component: {fileID: 600824220}
   - component: {fileID: 600824219}
   - component: {fileID: 600824218}
   - component: {fileID: 600824226}
@@ -1158,19 +1157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 374169361}
---- !u!114 &600824220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600824217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 301fa21d79c65c1488184d9264f799a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ImageTarget: {fileID: 0}
 --- !u!114 &600824221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1457,6 +1443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Caranimator: {fileID: 0}
+  ResultsScreen: {fileID: 0}
 --- !u!95 &776865685
 Animator:
   serializedVersion: 3
@@ -2136,6 +2123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Caranimator: {fileID: 776865683}
+  ResultsScreen: {fileID: 0}
 --- !u!43 &1402801694
 Mesh:
   m_ObjectHideFlags: 0
@@ -2740,6 +2728,26 @@ PrefabInstance:
     - target: {fileID: 3362445371382605244, guid: f0393cd53561b81478f91e44ddffbea7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697379111834512341, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302181285672896616, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180010358509421704, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144667983656351588, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214519971506599880, guid: f0393cd53561b81478f91e44ddffbea7,
@@ -3415,7 +3423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1897138939
 RectTransform:
   m_ObjectHideFlags: 0
