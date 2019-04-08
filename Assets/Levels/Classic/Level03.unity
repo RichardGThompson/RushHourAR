@@ -1124,6 +1124,7 @@ GameObject:
   - component: {fileID: 600824218}
   - component: {fileID: 600824226}
   - component: {fileID: 600824227}
+  - component: {fileID: 600824228}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -1263,6 +1264,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4828acc075a832b47be9081a65467bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &600824228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600824217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60348b8e09d2ba740a2963912588018d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threeStar: 23
+  twoStar: 26
+  starTwo: {fileID: 1666126914}
+  starThree: {fileID: 1666126913}
+  debug: {fileID: 0}
 --- !u!1 &735276140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Caranimator: {fileID: 0}
+  ResultsScreen: {fileID: 0}
 --- !u!95 &776865685
 Animator:
   serializedVersion: 3
@@ -2136,6 +2155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Caranimator: {fileID: 776865683}
+  ResultsScreen: {fileID: 0}
 --- !u!43 &1402801694
 Mesh:
   m_ObjectHideFlags: 0
@@ -2727,6 +2747,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3214519973205893693, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3362445371382605244, guid: f0393cd53561b81478f91e44ddffbea7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2742,13 +2767,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3214519973205893693, guid: f0393cd53561b81478f91e44ddffbea7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0393cd53561b81478f91e44ddffbea7, type: 3}
+--- !u!1 &1666126913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3365944127737170426, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1666126912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1666126914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2587166063748730085, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1666126912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1673673415
 PrefabInstance:
   m_ObjectHideFlags: 0
