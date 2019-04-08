@@ -136,31 +136,34 @@ public class NewDPadMovement : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-            if (Physics.Raycast(ray, out hit))
+            if (Input.touches[0].phase == TouchPhase.Began && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject() == false)
             {
-                touchedObject = hit.transform.gameObject;
-                if (touchedObject.tag == "Moveable2" || touchedObject.tag == "Moveable3")
+                Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                if (Physics.Raycast(ray, out hit))
                 {
-                    if(selectedObject != touchedObject)
+                    touchedObject = hit.transform.gameObject;
+                    if (touchedObject.tag == "Moveable2" || touchedObject.tag == "Moveable3")
                     {
-                        undoneAlready = false;
-                        currentObjectMoveCount = 0;
-                    }
-                    switch (firstTurn)
-                    {
-                        case false:
-                            previousObject = selectedObject;
-                            selectedObject = touchedObject;
-                            previousObject.GetComponent<Outline>().enabled = false;
-                            selectedObject.GetComponent<Outline>().enabled = true;
-                            break;
-                        case true:
-                            selectedObject = touchedObject;
-                            previousObject = selectedObject;
-                            selectedObject.GetComponent<Outline>().enabled = true;
-                            firstTurn = false;
-                            break;
+                        if (selectedObject != touchedObject)
+                        {
+                            undoneAlready = false;
+                            currentObjectMoveCount = 0;
+                        }
+                        switch (firstTurn)
+                        {
+                            case false:
+                                previousObject = selectedObject;
+                                selectedObject = touchedObject;
+                                previousObject.GetComponent<Outline>().enabled = false;
+                                selectedObject.GetComponent<Outline>().enabled = true;
+                                break;
+                            case true:
+                                selectedObject = touchedObject;
+                                previousObject = selectedObject;
+                                selectedObject.GetComponent<Outline>().enabled = true;
+                                firstTurn = false;
+                                break;
+                        }
                     }
                 }
             }
