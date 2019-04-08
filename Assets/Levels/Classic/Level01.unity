@@ -857,6 +857,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296520709}
   m_CullTransparentMesh: 0
+--- !u!1 &303846938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3365944127737170426, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3214519973369658674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &305308148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   threeStar: 17
   twoStar: 22
+  starTwo: {fileID: 1396205608}
+  starThree: {fileID: 303846938}
   debug: {fileID: 1102452716}
 --- !u!1001 &661645866
 PrefabInstance:
@@ -2291,6 +2299,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309152407}
   m_CullTransparentMesh: 0
+--- !u!1 &1396205608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2587166063748730085, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3214519973369658674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1415239357
 Material:
   serializedVersion: 6
@@ -4013,17 +4027,27 @@ PrefabInstance:
     - target: {fileID: 3086641392489750494, guid: f0393cd53561b81478f91e44ddffbea7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1783018368851671297, guid: f0393cd53561b81478f91e44ddffbea7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1428429460455145751, guid: f0393cd53561b81478f91e44ddffbea7,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957801717893353931, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122181451329558524, guid: f0393cd53561b81478f91e44ddffbea7,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0393cd53561b81478f91e44ddffbea7, type: 3}
