@@ -19,28 +19,25 @@ public class MoveRewards : MonoBehaviour
         starThreeAnimator = starThree.GetComponent<Animator>();
 
         rewardValues = new int[3];
-        rewardValues[0] = threeStar;
-        rewardValues[1] = twoStar;
+        rewardValues[0] = threeStar + 1;
+        rewardValues[1] = twoStar + 1;
         currentMoves = 0;
         currentScore = 3;
-        debug.text = "3";
     }
 
 
     void Update()
     {
         currentMoves = GetComponent<MoveTracker>().currentMoves;
-        if(currentMoves == 18)
+        if(currentMoves == rewardValues[0])
         {
             currentScore = 2;
-            starThreeAnimator.SetBool("Fade", true);
-            //debug.text = "2";
+            starThree.SetActive(false);
         }
-        else if(currentMoves == 26)
+        else if(currentMoves == rewardValues[1])
         {
             currentScore = 1;
-            starTwoAnimator.SetBool("Fade", true);
-            //debug.text = "1";
+            starTwo.SetActive(false);
         }
     }
 }
