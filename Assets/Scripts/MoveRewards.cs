@@ -6,33 +6,41 @@ using UnityEngine.UI;
 public class MoveRewards : MonoBehaviour
 {
     private int[] rewardValues;
+    private int currentScore;
     public int threeStar, twoStar;
+    public GameObject starTwo, starThree;
+    private Animator starTwoAnimator, starThreeAnimator;
     private int currentMoves;
     public Text debug;
     
     void Start()
     {
+        starTwoAnimator = starTwo.GetComponent<Animator>();
+        starThreeAnimator = starThree.GetComponent<Animator>();
+
         rewardValues = new int[3];
         rewardValues[0] = threeStar;
         rewardValues[1] = twoStar;
         currentMoves = 0;
+        currentScore = 3;
+        debug.text = "3";
     }
 
 
     void Update()
     {
         currentMoves = GetComponent<MoveTracker>().currentMoves;
-        if(currentMoves <= rewardValues[0])
+        if(currentMoves == 18)
         {
-            debug.text = "3 Stars!";
+            currentScore = 2;
+            starThreeAnimator.SetBool("Fade", true);
+            //debug.text = "2";
         }
-        else if(currentMoves <= rewardValues[1] && currentMoves > rewardValues[0])
+        else if(currentMoves == 26)
         {
-            debug.text = "2 Stars!";
-        }
-        else
-        {
-            debug.text = "1 Star!";
+            currentScore = 1;
+            starTwoAnimator.SetBool("Fade", true);
+            //debug.text = "1";
         }
     }
 }
