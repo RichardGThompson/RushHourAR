@@ -187,7 +187,7 @@ public class NewDPadMovement : MonoBehaviour
     {
         //Setting variables as they are needed at start.
         undoneAlready = false;
-        firstTurn = false;
+        firstTurn = true;
 
         //Decalring all of the buttons.
         
@@ -209,15 +209,5 @@ public class NewDPadMovement : MonoBehaviour
     void Update()
     {
         SelectCar();
-        /*
-        if (selectedObject != null)
-        {
-            debugText.text = selectedObject.name;
-        }
-        else
-        {
-            debugText.text = "NULL";
-        }
-        */
     }
 }

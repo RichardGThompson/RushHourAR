@@ -28,12 +28,12 @@ public class ClassicEndScore : MonoBehaviour
                 //Show 2 stars.
                 starOne.SetActive(true);
                 starTwo.SetActive(true);
-                endText.text = "3 Stars!";
+                endText.text = "2 Stars!";
                 break;
             case 1:
                 //Show 1 star.
                 starOne.SetActive(true);
-                endText.text = "3 Stars!";
+                endText.text = "1 Star!";
                 break;
         }
     }
