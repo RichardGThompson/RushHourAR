@@ -1213,6 +1213,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0393cd53561b81478f91e44ddffbea7, type: 3}
+--- !u!1 &382298808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3365944127737170426, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 382298807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &382298809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2587166063748730085, guid: f0393cd53561b81478f91e44ddffbea7,
+    type: 3}
+  m_PrefabInstance: {fileID: 382298807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &458022025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1638,6 +1650,7 @@ GameObject:
   - component: {fileID: 600824218}
   - component: {fileID: 600824226}
   - component: {fileID: 600824227}
+  - component: {fileID: 600824220}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -1671,7 +1684,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 903b2682ebe8631419a1c285c8b77913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentTime: 0
+  currentTimeInt: 0
   timeText: {fileID: 374169361}
+--- !u!114 &600824220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600824217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a364ebab9823e4ebd450bfa840e97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScore: 0
+  threeStar: 19
+  twoStar: 25
+  starTwo: {fileID: 382298809}
+  starThree: {fileID: 382298808}
+  debug: {fileID: 0}
 --- !u!114 &600824221
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class LevelTime : MonoBehaviour
 {
     private float startingTime, currentTimeElapsed;
-    private int currentTimeInt;
+    public float currentTime;
+    public int currentTimeInt;
     private float nextActionTime = 0.0f;
     private float period = 1.0f;
     public Text timeText;
@@ -14,18 +15,22 @@ public class LevelTime : MonoBehaviour
     private void Start()
     {
         currentTimeInt = 0;
+        currentTime = 0;
     }
 
     private void Update()
     {
-        if(Time.time > nextActionTime)
+        if (GetComponent<CheckIfTargetActive>().trackerFound())
         {
-            nextActionTime += period;
-            if (GetComponent<CheckIfTargetActive>().trackerFound())
-            {
-                currentTimeInt++;
-            }
+            currentTime += 1.0f * Time.deltaTime;
+            currentTimeInt = Mathf.RoundToInt(currentTime);
         }
         timeText.text = currentTimeInt.ToString();
+    }
+
+    private void IncrementTime()
+    {
+        currentTimeInt++;
+        return;
     }
 }
