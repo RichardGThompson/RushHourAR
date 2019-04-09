@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MoveRewards : MonoBehaviour
 {
     private int[] rewardValues;
-    private int currentScore;
+    public int currentScore;
     public int threeStar, twoStar;
     public GameObject starTwo, starThree;
     private Animator starTwoAnimator, starThreeAnimator;

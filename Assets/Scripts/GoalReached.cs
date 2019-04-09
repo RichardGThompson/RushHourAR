@@ -27,15 +27,11 @@ public class GoalReached : MonoBehaviour
                 Debug.Log("Not null");
                 if (hit.collider.tag == "Goal")
                 {
-                    Debug.Log("hit goal");
+                    //Debug.Log("hit goal");
                     ResultsScreen.SetActive(true);
                     Caranimator.gameObject.SetActive(true);
                     Caranimator.GetComponent<Animator>().SetBool("Victory", true);
-                    
-                    
                     gameObject.SetActive(false);
-
-
                 }
             }
         }

@@ -1364,6 +1364,7 @@ GameObject:
   - component: {fileID: 8819464209863650765}
   - component: {fileID: 2939181343469196710}
   - component: {fileID: 7139971586982283079}
+  - component: {fileID: 3976640192876952697}
   m_Layer: 5
   m_Name: ResultsScreen
   m_TagString: ResultsScreen
@@ -1455,6 +1456,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3976640192876952697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3015358750191968600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c15b16bb7ca84d8c9c54a48232e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 0
+  starOne: {fileID: 3428945128931629382}
+  starTwo: {fileID: 3679864244499460280}
+  starThree: {fileID: 8948884729182405406}
 --- !u!1 &3214519971506599880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '0
 
 '
 --- !u!1 &3214519973205893693
