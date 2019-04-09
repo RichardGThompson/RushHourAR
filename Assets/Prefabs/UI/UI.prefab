@@ -1365,6 +1365,7 @@ GameObject:
   - component: {fileID: 2939181343469196710}
   - component: {fileID: 7139971586982283079}
   - component: {fileID: 3976640192876952697}
+  - component: {fileID: 4961926776502774152}
   m_Layer: 5
   m_Name: ResultsScreen
   m_TagString: ResultsScreen
@@ -1466,6 +1467,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df1c15b16bb7ca84d8c9c54a48232e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 0
+  starOne: {fileID: 3428945128931629382}
+  starTwo: {fileID: 3679864244499460280}
+  starThree: {fileID: 8948884729182405406}
+--- !u!114 &4961926776502774152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3015358750191968600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83fdf78d89cd4047a1f008a160ce808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
