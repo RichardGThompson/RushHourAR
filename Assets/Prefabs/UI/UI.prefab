@@ -1473,6 +1473,7 @@ MonoBehaviour:
   starOne: {fileID: 3428945128931629382}
   starTwo: {fileID: 3679864244499460280}
   starThree: {fileID: 8948884729182405406}
+  endText: {fileID: 3495181797449463423}
 --- !u!114 &4961926776502774152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,6 +1490,7 @@ MonoBehaviour:
   starOne: {fileID: 3428945128931629382}
   starTwo: {fileID: 3679864244499460280}
   starThree: {fileID: 8948884729182405406}
+  endText: {fileID: 9192052976084362964}
 --- !u!1 &3214519971506599880
 GameObject:
   m_ObjectHideFlags: 0
